@@ -1,8 +1,10 @@
 # Personalized Content Dashboard
 
-**Live Demo:** https:/content-dashboard-p380v9rz7-poojakk112s-projects.vercel.app
+**Live Demo:** https://content-dashboard-p380v9rz7-poojakk112s-projects.vercel.app
 
-A responsive, interactive content dashboard built for the SDE Intern Frontend Assignment...
+**Demo Video:** https://www.loom.com/share/c6b17c42a5784053bf3b7f5dddb05831
+
+A responsive, interactive content dashboard built for the SDE Intern Frontend Assignment. Users can browse personalized news, movie recommendations, and social posts, customize their feed by category, search content, reorder cards via drag-and-drop, mark favorites, and toggle dark mode — all with state persisted across sessions.
 
 ## Features
 
@@ -55,25 +57,25 @@ npm test
 
 src/
 app/
-page.tsx          # Main dashboard page
-layout.tsx         # Root layout with Redux Provider
+page.tsx            # Main dashboard page
+layout.tsx          # Root layout with Redux Provider
 components/
-Sidebar.tsx         # Navigation sidebar
-Header.tsx          # Search bar, dark mode toggle, settings
-SettingsPanel.tsx   # Category preferences panel
-DashboardLayout.tsx # Combines sidebar + header + content area
-ContentCard.tsx     # Individual content card
+Sidebar.tsx          # Navigation sidebar
+Header.tsx           # Search bar, dark mode toggle, settings
+SettingsPanel.tsx    # Category preferences panel
+DashboardLayout.tsx  # Combines sidebar + header + content area
+ContentCard.tsx      # Individual content card
 store/
-store.ts            # Redux store with persistence config
+store.ts             # Redux store with persistence config
 features/
 preferencesSlice.ts  # Categories + dark mode
 favoritesSlice.ts    # Favorited items
-uiSlice.ts            # Search query + active section
-contentSlice.ts       # Content items + async fetch + reordering
+uiSlice.ts           # Search query + active section
+contentSlice.ts      # Content items + async fetch + reordering
 data/
-mockContent.ts       # Mock content dataset
+mockContent.ts        # Mock content dataset
 types/
-content.ts            # Shared TypeScript types
+content.ts             # Shared TypeScript types
 
 ## Notes & Design Decisions
 
