@@ -1,10 +1,14 @@
 # Personalized Content Dashboard
 
-**Live Demo:** https://content-dashboard-p380v9rz7-poojakk112s-projects.vercel.app
+**Live Demo:** https://content-dashboard-rose-kappa.vercel.app
 
 **Demo Video:** https://www.loom.com/share/c6b17c42a5784053bf3b7f5dddb05831
 
 A responsive, interactive content dashboard built for the SDE Intern Frontend Assignment. Users can browse personalized news, movie recommendations, and social posts, customize their feed by category, search content, reorder cards via drag-and-drop, mark favorites, and toggle dark mode — all with state persisted across sessions.
+
+## 📸 Screenshot
+
+![Personalized feed](screenshots/feed.jpg)
 
 ## Features
 
